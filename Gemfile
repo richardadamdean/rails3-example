@@ -36,3 +36,7 @@ gem 'unicorn'
 
 # To use debugger
 # gem 'debugger'
+
+group :production do
+  gem 'therubyracer'
+end
